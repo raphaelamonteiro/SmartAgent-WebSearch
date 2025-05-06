@@ -12,9 +12,6 @@ Original file is located at
 
 !pip install --upgrade smolagents  # Update smolagents to the latest version
 
-from huggingface_hub import login
-login("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")
-
 from smolagents import CodeAgent, DuckDuckGoSearchTool, InferenceClientModel
 
 # Inicialize o modelo
